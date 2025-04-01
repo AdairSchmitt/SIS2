@@ -34,7 +34,11 @@ public class SIS
 				// make a seperate array list for gpa ):
 
 				// 
-			
+
+
+
+				System.out.println(roster.size());
+
 
 				
 			
@@ -137,6 +141,7 @@ public class SIS
 							// else if choice == 2 then period 2
 							//else if 3 then period 3
 							SortStudent.sortByPeriod1();
+							
 							int classNum =1;
 							for(Student s: SortStudent.sortByLastName()) 
 								{
